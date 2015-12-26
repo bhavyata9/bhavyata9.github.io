@@ -1,5 +1,11 @@
+p{
+  font-family: 'Open Sans',sans-serif;
+}
+
 .navbar-default{
   background-color: #474747;
+  margin-bottom: 0;
+  border: none;
 }
 .logo{
   height: 80px;
@@ -58,7 +64,63 @@ li.twitter a:hover,
 li.facebook a:hover{
   opacity: 0.8;
 }
+/* header */
+header{
+  height: 600px;
+  text-align: center;
+  background-color: #6d6d6d;
+  padding-top: 120px;
+}
+ header h2{
+  margin-top: 50px;
+  font-size: 3.5em;
+  color: #fff;
+  font-family: 'Oswald',sans-serif;
+}
+header p{
+  padding: 0 20px;
+  font-size: 1.5em;
+  color: #fff;
+  font-family: 'Open Sans',sans-serif;
+}
 
+.profile_picture{
+  -webkit-box-shadow: 0px 14px 37px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 14px 37px -6px rgba(0,0,0,0.75);
+  box-shadow: 0px 14px 37px -6px rgba(0,0,0,0.75);
+width: 200px;
+height: 250px;
+border: 10px solid #fff;
+
+}
+.main-content{
+  padding: 60px 100px;
+}
+.main-content h3{
+  padding: 10px  30px;
+  display: inline-block;
+  font-family: 'Oswald',sans-serif;
+  font-size: 1.5em;
+  color: #ff9900;
+  border: 3px solid #ff9900;
+}
+.main-content h4{
+  color: #3f3f3f;
+  font-size: 1.7em;
+  font-family: 'Oswald',sans-serif;
+}
+.main-content h4 small{
+  color: #a0a0a0;
+  font-size: .7em;
+  border-left: 1px solid #a0a0a0;
+  border-color: #a0a0a0;
+  padding-left: 5px;
+  margin-left: 5px;
+}
+.main-content .about-me p{
+  color: #a0a0a0;
+  font-size: 1.2em;
+}
 @media (max-width : 768px) {
   .navbar-default .navbar-nav>li>a {
     width: 100%;
