@@ -66,7 +66,7 @@ li.facebook a:hover{
 }
 /* header */
 header{
-  height: 600px;
+  height: auto;
   text-align: center;
   background-color: #6d6d6d;
   padding-top: 120px;
@@ -127,4 +127,5 @@ border: 10px solid #fff;
     border-bottom: 1px solid #3d3d3d;
     text-align: center;
   }
+
 }
