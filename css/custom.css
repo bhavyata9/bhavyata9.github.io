@@ -1,0 +1,51 @@
+.navbar-default{
+  background-color: #474747;
+}
+.logo{
+  height: 80px;
+  width: 80px;
+  padding: 10px 15px;
+  background-color:  #ffcc00;
+}
+.navbar-brand,
+.navbar-nav li a{
+  height: 80px;
+  line-height: 80px;
+  padding: 0 25px;
+  margin-left: 1px;
+  background-color: #474747;
+  font-family: 'Oswald',sans-serif;
+  font-size: 1.3em;
+  color: #fff;
+  border-right: 1px solid #393939;
+  -webkit-box-shadow: 1px 0px 0px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow: 1px 0px 0px 0px rgba(0,0,0,0.1);
+  box-shadow: 1px 0px 0px 0px rgba(0,0,0,0.1);
+}
+.navbar-brand{ padding-right: 0;}
+.navbar-default .navbar-nav >li> a{ color:#fff;}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover{
+  color: #fff;
+  background-color: #535252;
+}
+
+/* social icons */
+li.twitter a{
+  width: 80px ;
+  background-color: #5ea9dd !important ;
+  color: #fff !important;
+  font-size: 1.8em;
+  text-align: center;
+  box-shadow: none;
+  border-right: none;
+}
+li.facebook a{
+  width: 80px ;
+  background-color: #3b5988 !important ;
+  color: #fff !important;
+  font-size: 1.8em;
+  text-align: center;
+  box-shadow: none;
+  border-right: none;
+}
