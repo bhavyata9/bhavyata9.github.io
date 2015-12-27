@@ -74,7 +74,7 @@ header{
   background-color: #6d6d6d;
   padding-top: 120px;
 }
- header h2{
+header h2{
   margin-top: 50px;
   font-size: 3.5em;
   color: #fff;
@@ -91,9 +91,9 @@ header p{
   -webkit-box-shadow: 0px 14px 37px -6px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 14px 37px -6px rgba(0,0,0,0.75);
   box-shadow: 0px 14px 37px -6px rgba(0,0,0,0.75);
-width: 200px;
-height: 250px;
-border: 10px solid #fff;
+  width: 200px;
+  height: 250px;
+  border: 10px solid #fff;
 
 }
 .main-content{
@@ -127,27 +127,56 @@ border: 10px solid #fff;
   font-size: 1.2em;
 }
 /* Projects*/
-.post{
+.main-content .post{
   text-align: center;
 }
-.post h4{
+.main-content .post h4{
   margin-top: 20px;
   font-size: 1.3em;
   color: #6a6a6a;
   text-transform: uppercase;
 }
-.post p{
+.main-content .post p{
   color: #a5a5a5;
   line-height: 2em;
 }
 .img-responsive:hover{
   opacity: 0.8;
 }
+.main-content .contact p{
+  color: #a0a0a0;
+  font-size: 1.2em;
+}
+/* CONTACT INFO */
+.contact.row{
+  padding-top: 20px;
+}
+input{
+  width: 100%;
+  padding: 10px 20px;
+  border: 3px solid #b9b9b9;
+  margin-bottom: 20px;
+  font-family: 'Oswald',sans-serif;
+  font-size: 1.3em;
+  color: #b9b9b9;
+}
+input:focus{
+  border: 3px  solid #ff9900;
+  box-shadow: 0 0 5px 1px #ff9900;
+}
+.message{
+  height: 220px;
+}
+.send{
+  width: 22%;
+  background-color: #fff;
+}
+
+
 @media (max-width : 768px) {
   .navbar-default .navbar-nav>li>a {
     width: 100%;
     border-bottom: 1px solid #3d3d3d;
     text-align: center;
   }
-
 }
