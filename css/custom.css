@@ -168,7 +168,7 @@ input:focus{
   height: 220px;
 }
 .send{
-  width: 22%;
+  width: auto;
   background-color: #fff;
 }
 
