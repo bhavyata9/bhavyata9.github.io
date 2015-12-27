@@ -1,6 +1,9 @@
 p{
   font-family: 'Open Sans',sans-serif;
 }
+hr{
+  border: 1px solid #dcdcdc;
+}
 
 .navbar-default{
   background-color: #474747;
@@ -98,6 +101,7 @@ border: 10px solid #fff;
 }
 .main-content h3{
   padding: 10px  30px;
+  margin-bottom: 25px;
   display: inline-block;
   font-family: 'Oswald',sans-serif;
   font-size: 1.5em;
@@ -120,6 +124,9 @@ border: 10px solid #fff;
 .main-content .about-me p{
   color: #a0a0a0;
   font-size: 1.2em;
+}
+.col-xs-6{
+  padding-top: 50px;
 }
 @media (max-width : 768px) {
   .navbar-default .navbar-nav>li>a {
