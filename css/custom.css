@@ -140,6 +140,9 @@ border: 10px solid #fff;
   color: #a5a5a5;
   line-height: 2em;
 }
+.img-responsive:hover{
+  opacity: 0.8;
+}
 @media (max-width : 768px) {
   .navbar-default .navbar-nav>li>a {
     width: 100%;
