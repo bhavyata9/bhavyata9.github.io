@@ -13,6 +13,7 @@
   <link href='https://fonts.googleapis.com/css?family=Oswald|Open+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <link href="css/custom.css" rel="stylesheet">
   <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -32,22 +33,22 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#"><img src= "img/b.png" class = "logo  "> </a>
+        <a class="navbar-brand " href="#"><img src= "img/b.png" class = "logo animated bounceInDown"> </a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav animated bounceInDown">
           <li class="active"><a href="#">HOME <span class="sr-only">(current)</span></a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">PROJECTS</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="#about-me">ABOUT</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
 
         <!-- /SOCIAL ICONS -->
         <ul class="nav navbar-nav navbar-right">
-          <li class = "twitter"><a href="https://twitter.com/bhavyata_shah"><i class="fa fa-twitter"></i></a></li>
-          <li class="facebook"><a href="http://facebook.com/bhavyata.shah.3"><i class="fa fa-facebook"></i></a></li>
+          <li class = "twitter animated rotateIn"><a href="https://twitter.com/bhavyata_shah"><i class="fa fa-twitter"></i></a></li>
+          <li class="facebook animated rotateIn"><a href="http://facebook.com/bhavyata.shah.3"><i class="fa fa-facebook"></i></a></li>
         </ul>
 
         <!-- /SOCIAL ICONS -->
@@ -56,7 +57,7 @@
   </nav>
 
   <!-- HEADER-->
-  <header   class="container-fluid">
+  <header   class="container-fluid animated bounceInUp">
     <div class="row">
       <img src = "img/2.jpg" class = "img-circle profile_picture">
 
@@ -70,7 +71,7 @@
   <div class="main-content container">
     <div class="row">
       <!--  about me -->
-      <div class = "about-me">
+      <div class = "about-me"> <a name="about-me"></a>
         <h3>ABOUT ME  </h3>
         <h4>BHAVYATA SHAH <small> SOFTWARE ENGINEERING STUDENT </small>  </h4>
         <p> Programming is one of my favourite hobbies. From taking computer science courses in high school to learning languages in my own time,  I have become very attached to the field of computer science. In the future, I plan to  build an app that helps patients with diabetes  monitor their health. </p>
@@ -78,7 +79,7 @@
       <!-- /about me -->
       <hr>
       <!--  projects -->
-      <div class  ="projects">
+      <div class  ="projects"> <a name="projects"></a>
         <h3>PROJECTS  </h3>
         <div class  ="row">
           <div class ="col-md-6 post" >
@@ -109,29 +110,18 @@
       </div>  <!-- /projects -->
     </div>
         <!-- contact-info -->
-        <div class="contact">
+        <div class="contact"><a name="contact"></a>
           <h3> CONTACT INFO </h3>
           <h4> GET IN TOUCH </h4>
           <p>Please contact me for further details or any questions that you may have!</p>
 
-          <div class ="row">
-            <div class="col-md-9">  <!-- contact-form -->
-            <form action="mailto:bhavyata_shah@hotmail.com"method="post">
-              <input type="text"  name="fullname" value="FULL NAME">
-              <br>
-              <input type="email"  name="email" value="EMAIL">
-              <br>
-              <input class="message" type="text"  name="message" value="MESSAGE">
-              <br>
-              <input class="send" type="submit" value="SEND MESSAGE">
-            </form>
+          <div class="quick-info">
 
-            </div><!-- /contact-form -->
-            <div class="col-md-3 quick-info">
-              <div><i class="fa fa-envelope-o"></i><p> bhavyata_shah@hotmail.com</p> </div>
-            <div><i class="fa fa-github"></i> <p>bhavyata9 </p></div>
-              <div><i class="fa fa-linkedin"></i> <p>bhavyatashah</p></div>
-            </div>
+
+              <div><p><i class="fa fa-envelope-o"></i>  bhavyata_shah@hotmail.com</p></div>
+            <div><p><i class="fa fa-github"></i>  bhavyata9 </p></div>
+              <div><p><i class="fa fa-linkedin"></i>  bhavyatashah</p></div>
+
           </div><!-- /row -->
         </div><!-- /contact -->
         <!-- /contact-info -->

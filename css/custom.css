@@ -1,3 +1,11 @@
+/* Animate CSS */
+.twiiter .facebook{-webkit-animation-delay:2s;}
+.logo{-webkit-animation-delay:1s;}
+.navbar-nav li a{-webkit-animation-delay:.5s;}
+
+header{-webkit-animation-delay:1.2s;}
+
+
 p{
   font-family: 'Open Sans',sans-serif;
 }
@@ -71,6 +79,10 @@ li.facebook a:hover{
 header{
   height: auto;
   text-align: center;
+  background: url(../img/wall2.jpg);
+  background-attachment:local;
+
+
   background-color: #6d6d6d;
   padding-top: 100px;
 }
@@ -143,50 +155,26 @@ header p{
 .img-responsive:hover{
   opacity: 0.8;
 }
-.main-content .contact p{
+/*.main-content .contact p{
   color: #a0a0a0;
   font-size: 1.2em;
-}
+}*/
 /* CONTACT INFO */
 .contact.row{
   padding-top: 20px;
 }
-input{
-  width: 100%;
-  padding: 1.5% 3%;
-  border: 3px solid #b9b9b9;
-  margin-bottom: 20px;
-  font-family: 'Oswald',sans-serif;
-  font-size: 1.3em;
-  color: #b9b9b9;
-}
-input:focus{
-  border: 3px  solid #ff9900;
-  box-shadow: 0 0 5px 1px #ff9900;
-}
-.message{
-  height: 220px;
-  padding-bottom: 170px;
-}
-.send{
-  width: auto;
-  background-color: #fff;
-}
-.send:hover{
-  color :#ff9900;
-  border-color: #ff9900;
-}
-.quick-info i{
-  position: absolute;
-  left: 0;
+
+.contact  p{
+text-align: center;
   padding-top: 2px;
-  color: #b9b9b9;
+  color: #3f3f3f;
   font-size: 1.4em;
 }
 
+
 .quick-info p{
-  padding-left: 15px;
-  color: #c3c3c3 !important;
+text-align: center;
+  color: #3f3f3f ;
   font-family: 'Oswald',sans-serif;
 }
 
@@ -207,15 +195,15 @@ footer{
   .navbar-default .navbar-nav>li>a {
     width: 100%;
     border-bottom: 1px solid #3d3d3d;
-    text-align: center;
+    text-align: center ;
   }
-  .quick-info i{
-    padding-left: 1%;
 
-  }
   .quick-info p{
-    padding-left: 10%;
+margin: auto;
+padding-left: auto;
+font-size: 1em;
   }
+
   header h2{
     margin-top: 50px;
     font-size: 2.5em;
