@@ -21,9 +21,8 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 </head>
-<body>
-
-  <nav class="navbar navbar-default">
+<body data-spy="scroll" data-target=".navbar">
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -39,7 +38,7 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav animated bounceInDown">
-          <li class="active"><a href="#">HOME <span class="sr-only">(current)</span></a></li>
+          <li  class="active"><a href="#home">HOME <span class="sr-only">(current)</span></a></li>
           <li><a href="#about-me">ABOUT</a></li>
           <li><a href="#projects">PROJECTS</a></li>
           <li><a href="#contact">CONTACT</a></li>
@@ -57,7 +56,7 @@
   </nav>
 
   <!-- HEADER-->
-  <header   class="container-fluid animated bounceInUp">
+  <header id ="home"  class="container-fluid animated bounceInUp">
     <div class="row">
       <img src = "img/2.jpg" class = "img-circle profile_picture">
 
@@ -71,15 +70,21 @@
   <div class="main-content container">
     <div class="row">
       <!--  about me -->
-      <div class = "about-me"> <a name="about-me"></a>
+      <div id = "about-me" class = "about-me"> <a name="about-me"></a>
         <h3>ABOUT ME  </h3>
         <h4>BHAVYATA SHAH <small> SOFTWARE ENGINEERING STUDENT </small>  </h4>
-        <p> Programming is one of my favourite hobbies. From taking computer science courses in high school to learning languages in my own time,  I have become very attached to the field of computer science. In the future, I plan to  build an app that helps patients with diabetes  monitor their health. </p>
+        <p> When I was a  little girl, I wanted to be a superhero. Today, although my career choice may be different, my aspirations remain the same. My long term goal is to be successful in pursuing my passion all the while writing programs that may potentially help millions of people.
+
+Currently, as a student at the University of Waterloo, I continue to learn new  languages and build on my knowledge about computer science. I persistently strive to perform beyond my abilities and learn more  from  others  around me.
+ </p>
+<div>  <h5>Languages:</h5><span>Java, C, C++, and Arduino </span></div>
+  <div> <h5>Markup:</h5><span>HTML, CSS, and XML </span></div>
+<div><h5>IDEs and Editors:</h5><span>Dr.Java, Greenfoot, BlueJ, Atom, Sublime Text, Energia, and Android Studio</span></div>
       </div>
       <!-- /about me -->
       <hr>
       <!--  projects -->
-      <div class  ="projects"> <a name="projects"></a>
+      <div id = "projects"class  ="projects"> <a name="projects"></a>
         <h3>PROJECTS  </h3>
         <div class  ="row">
           <div class ="col-md-6 post" >
@@ -110,7 +115,7 @@
       </div>  <!-- /projects -->
     </div>
         <!-- contact-info -->
-        <div class="contact"><a name="contact"></a>
+        <div id  ="contact"class="contact"><a name="contact"></a>
           <h3> CONTACT INFO </h3>
           <h4> GET IN TOUCH </h4>
           <p>Please contact me for further details or any questions that you may have!</p>

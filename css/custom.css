@@ -14,6 +14,7 @@ hr{
 }
 
 .navbar-default{
+
   background-color: #474747;
   margin-bottom: 0;
   border: none;
@@ -26,6 +27,7 @@ hr{
 }
 .navbar-brand,
 .navbar-nav li a{
+
   height: 80px;
   line-height: 80px;
   padding: 0 25px;
@@ -38,11 +40,14 @@ hr{
   -webkit-box-shadow: 1px 0px 0px 0px rgba(0,0,0,0.1);
   -moz-box-shadow: 1px 0px 0px 0px rgba(0,0,0,0.1);
   box-shadow: 1px 0px 0px 0px rgba(0,0,0,0.1);
+
 }
 .navbar-brand{ padding-right: 0;}
 .navbar-default .navbar-nav >li> a{ color:#fff;}
 .navbar-default .navbar-nav >li> a:hover{ color:#fff; background-color: #535252;}
 .navbar-default .navbar-toggle { margin-top: 25px;}
+
+
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover{
   color: #fff;
   background-color: #535252;
@@ -50,6 +55,7 @@ hr{
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
   border-color: #3d3d3d;
+
 }
 
 /* social icons */
@@ -75,6 +81,7 @@ li.twitter a:hover,
 li.facebook a:hover{
   opacity: 0.8;
 }
+
 /* header */
 header{
   height: auto;
@@ -137,6 +144,20 @@ header p{
 .main-content .about-me p{
   color: #a0a0a0;
   font-size: 1.2em;
+}
+.main-content .about-me div{
+  margin-top: 3px;
+}
+.main-content .about-me h5{
+  font-family: 'Oswald',sans-serif;
+  font-size: 1.2em;
+  color:#6a6a6a;
+  display: inline;
+}
+.main-content .about-me span{
+  margin-left: 5px;
+  font-size: 1.2em;
+  color: #a0a0a0;
 }
 /* Projects*/
 .main-content .post{
