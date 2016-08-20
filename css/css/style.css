@@ -9,12 +9,6 @@ html {
    height: 100%;
    width: 100%;
  }
- a{
-   color:#000;
- }
- .work-tabs a{
-   color:#fff;
- }
 
 .js #loader {
     display: block;
