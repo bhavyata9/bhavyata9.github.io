@@ -263,12 +263,12 @@ nav a:hover{
   color: red;
 }
 
-@media (min-width:800px){
+@media all and (min-width:800px){
   nav li{
   font-size: 100%;
   }
 }
-@media(max-width:728px){
+@media all and(max-width:728px){
   .logo{
     font-size: 3vw;
   }
@@ -280,7 +280,7 @@ nav a:hover{
     margin-right: 0;
   }
 }
-@media (max-width: 500px){
+@media all and(max-width: 500px){
     .navBarContainer{
       display: none;
     }
@@ -422,7 +422,7 @@ section h2 {
   text-align: right;
 }
 
-@media(max-width: 739px){
+@media all and(max-width: 739px){
   #works{
     clear: both;
     float: none;
@@ -496,7 +496,7 @@ section h2 {
   }
 }
 
-@media(max-width:190px){
+@media all and(max-width:190px){
   .work-item .title{
     font-size: 12vw;
   }
@@ -916,7 +916,7 @@ section h2 {
 .work-bullet-indent{
   margin-left: 25px;
 }
-@media(max-width:739px){
+@media all and(max-width:739px){
   #about h2{
     padding: none;
     margin: none;
@@ -971,13 +971,13 @@ section h2 {
   width: 100%;
 }
 }
-@media(max-width: 990px){
+@media all and(max-width: 990px){
   .exp-image{
     display: none;
   }
 }
 
-@media(max-width:190px){
+@media all and(max-width:190px){
 .imgContainer{
   margin: 5px;
   width: 100%;
