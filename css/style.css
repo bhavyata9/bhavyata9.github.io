@@ -36,7 +36,7 @@ html {
     height: 100%;
     z-index: 9999;
     text-align: center;
-    background: url(../img/loading4.gif) center no-repeat #000;
+    background: url(../img/loading.gif) center no-repeat #000;
     background-size: 150px;
 }
 .intro {
