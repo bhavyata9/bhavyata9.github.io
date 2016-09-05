@@ -118,8 +118,8 @@ html {
 .miniMenu ul{
 font-size: 18px;
 bottom: 0;
-   left: 0;
-   right: 0;
+left: 0;
+ right: 0;
 display: block;
 position: absolute;
 
@@ -129,7 +129,6 @@ position: absolute;
   border-bottom: 1px solid black;
   text-transform:capitalize;
   display: block;
-  width: 100%;
 }
 
 .miniMenu ul li:first-child{
@@ -525,13 +524,12 @@ section h2 {
   display: table-cell;
   cursor: pointer;
   text-decoration: none;
-  width: 3.33333%;
+  width: 3.333333%;
 	height: 100%;
   overflow: hidden;
 	vertical-align: middle;
   white-space: nowrap;
   z-index: 10;
-  /*border: 1px solid purple;*/
 }
 .work-tabs a:visited, .work-tabs a:active {
   color: inherit;
@@ -543,7 +541,7 @@ section h2 {
 .work-tabs a span{
 	display: inline-block;
   padding:4%;
-  height: 100%;
+  width: 90%;
 }
 .work-tabs .prev{
   text-align: left;
@@ -728,7 +726,7 @@ section h2 {
      width: 100%;
      text-align: center;
      display: block;
-     height: 162px;
+     height: auto;
      margin: 0;
      padding: 0;
    }
@@ -740,14 +738,19 @@ section h2 {
      text-align: center;
      white-space: normal;
     font-size: 18px;
-    height: 51.67px;
+    /*height: 50px;*/
+    border: 1px solid green;
+    width: 100%;
+
    }
 
    .work-tabs a span{
      position: relative;
-     width: 90vw;
+     display: block;
      text-align: center;
      padding: 2% 4%;
+     /*border: 1px solid orange;*/
+     width: 88vw;
    }
    .work-tabs2{
      height: 150px;
