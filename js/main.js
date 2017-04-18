@@ -3,23 +3,8 @@ $(document).ready(function() {
 	var projects=[];
 	var current='';
 	var height = $('.work-item img').height()+'px';
+
 	 $(document).on("scroll", onScroll);
-	 $( window ).resize(function() {
-	 if($(window).width()<=311){
-		 var numOfLinks = $(".work-links .link").length;
-		$('.link').css('width',100/numOfLinks+'vw');
-	}else{
-		var numOfLinks = $(".work-links .link").length;
-	 $('.link').css('width','auto');
-	}
- });
- if($(window).width()<=311){
-	 var numOfLinks = $(".work-links .link").length;
-	$('.link').css('width',100/numOfLinks+'vw');
-}else{
-	var numOfLinks = $(".work-links .link").length;
- $('.link').css('width','auto');
-}
 
 
 	 //smoothscroll
