@@ -413,7 +413,7 @@ section h2 {
         /*text-align: center;*/
     }
     .work-col {
-        width: 80%;
+        width: 90%;
     }
 }
 
@@ -465,6 +465,7 @@ section h2 {
 
 #about {
     clear: both;
+    overflow: hidden;
 }
 
 .aboutContainer {
@@ -476,8 +477,10 @@ section h2 {
     float: left;
     margin-right: 10px;
     overflow: hidden;
-    /*border: solid 1px green;*/
-    width: 70%;
+    padding: 10px;
+    font-size: 24px;
+    line-height: 42px;
+    width: 67%;
 }
 
 .self-desc p {
@@ -487,6 +490,7 @@ section h2 {
 .imgContainer {
     float: right;
     width: 25%;
+    margin-right: 20px;
 }
 
 .mypic {
@@ -496,57 +500,13 @@ section h2 {
     max-width: 600px;
     min-width: 225px;
 }
-
-.self-desc h3 {
-    margin: 20px;
+.resume-link{
+  text-decoration: underline;
 }
 
-.work-exp {
-    /*border: 1px solid red;*/
-    justify-content: center;
-}
 
-.exp-image {
-    width: 20%;
-    float: left;
-    margin-top: 3%;
-    display: inline-block;
-    /*border: 1px solid black;*/
-}
 
-.work-desc {
-    /*border: 1px solid red;*/
-    float: left;
-    margin-top: 5px;
-    width: 77%;
-    margin-left: 20px;
-}
 
-.work-span {
-    font-size: 12px;
-}
-
-.work-exp p {
-    margin-bottom: 5px;
-    line-height: 110%;
-}
-
-.work-exp a {
-    color: #000;
-}
-
-.points {
-    font-size: 14px;
-    margin-top: 5px;
-}
-
-.points p {
-    line-height: 160%;
-}
-
-.work-bullet-indent {
-    margin-left: 25px;
-}
 
 @media(max-width:739px) {
     #about h2 {
@@ -579,27 +539,12 @@ section h2 {
         padding: 0px;
         min-width: 0px;
     }
-    #about h3 {
-        padding: 0;
-        margin-left: 0;
-    }
     .self-desc {
         float: none;
         display: block;
-        width: 100%;
+        width: 98%;
         margin: 10px 0;
-        padding: 0;
-    }
-    .work-exp {
-        padding: 0;
-        margin: 0;
-        width: 100%;
-    }
-    .work-desc {
-        position: relative;
-        padding: 0;
-        margin: 0;
-        width: 100%;
+        padding: 10px;
     }
 }
 
@@ -622,11 +567,7 @@ section h2 {
         text-align: center;
         font-size: 9vw;
     }
-    .work-header {
-        font-size: 9vw;
-        text-align: center;
-        /*border: solid 1px blue;*/
-    }
+
 }
 
 
@@ -644,6 +585,7 @@ section h2 {
 #contact h2 {
     color: #000;
     margin-top: 10px;
+    padding-top: 0px;
 }
 
 #contact p {
