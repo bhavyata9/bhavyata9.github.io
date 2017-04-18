@@ -574,7 +574,7 @@ section h2 {
 /*Contact INFO*/
 
 #contact {
-    margin-top: 0px;
+    margin-top: 150px;
     background-color: lightgrey;
     color: #000;
     clear: both;
@@ -602,6 +602,9 @@ section h2 {
 }
 
 @media all and (max-width:739px) {
+  #contact{
+    margin-top: 0px;
+  }
     #contact h2 {
         text-align: center;
     }
