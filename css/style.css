@@ -474,13 +474,15 @@ section h2 {
 }
 
 .self-desc {
-    float: left;
-    margin-right: 10px;
+    margin-left: 30px;
+    padding: 10px;
+    margin: auto;
     overflow: hidden;
     padding: 10px;
-    font-size: 24px;
+    text-align: center;
+    /*font-size: 24px;*/
     line-height: 42px;
-    width: 67%;
+    width: 90%;
 }
 
 .self-desc p {
@@ -488,16 +490,17 @@ section h2 {
 }
 
 .imgContainer {
-    float: right;
-    width: 25%;
-    margin-right: 20px;
+  margin:auto;
+  text-align: center;
 }
 
 .mypic {
-    width: 25vw;
+
+    width: 20vw;
+    /*height: 20vw;*/
+    border-radius: 50%;
     height: auto;
-    float: right;
-    max-width: 600px;
+    max-width: 350px;
     min-width: 225px;
 }
 .resume-link{
@@ -524,7 +527,6 @@ section h2 {
         clear: both;
         float: none;
         height: auto;
-        width: 55vw;
         margin: auto;
         margin-top: 0;
         display: block;
@@ -540,6 +542,7 @@ section h2 {
         min-width: 0px;
     }
     .self-desc {
+      text-align: center;
         float: none;
         display: block;
         width: 98%;
@@ -585,7 +588,7 @@ section h2 {
 #contact h2 {
     color: #000;
     margin-top: 10px;
-    padding-top: 0px;
+    padding-top: 15px;
 }
 
 #contact p {
@@ -615,6 +618,7 @@ section h2 {
         margin-left: 5px;
     }
     #contact h2 {
+      padding-top: 15px;
         padding: 0;
         margin: 0;
         margin-left: 5px;
@@ -630,6 +634,7 @@ section h2 {
 
 @media all and (max-width:190px) {
     #contact {
+        padding-top: 15px;
         margin-left: 8px;
     }
     #contact h2 {
