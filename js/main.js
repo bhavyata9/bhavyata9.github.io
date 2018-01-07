@@ -34,6 +34,7 @@ $(document).ready(function() {
 	});
 
 
+
 	$('.work-item a').each(function (index) {
 		workPages[$(this).attr('href')]=index; //"this" is the current element in the loop
 		projects.push($(this).attr('href'));
@@ -146,6 +147,7 @@ function onScroll(event){
 									return;
 								}
 							var refElement = $(currLink.attr("href"));
+							if (!refElement || !refElement.position()) { return; }
 							 var scrollPos = $(document).scrollTop();
 
 							if (refElement.position().top-125 <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
