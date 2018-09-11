@@ -15,6 +15,51 @@ a {
     color: #000;
 }
 
+.name{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 40px;
+}
+
+hr {
+    margin: 20px 100px;
+}
+.nav-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    flex-flow: row wrap;
+}
+.nav-item{
+    min-width: 90px;
+    max-width:120px;
+  
+    min-height: 90px;
+    max-height:120px;
+  
+   border-radius: 100%;
+   border: 2px solid lightgray;
+   background-color: lightgray;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 45px;
+   cursor: pointer;
+   margin: 15px;
+
+}
+.nav-item:hover{
+    color: white;
+    background-color: black;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    transform: scale(1.25);
+}
+p {
+    text-align: center;
+}
 .work-tabs a {
     color: #fff;
 }
@@ -548,7 +593,7 @@ section h2 {
       text-align: center;
         float: none;
         display: block;
-        width: 98%;
+        width: 90%;
         margin: 10px 0;
         padding: 10px;
     }

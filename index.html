@@ -24,161 +24,28 @@
 
 <body>
     <div class="icon"><span class="loadingText">HELLO WORLD...</span></div>
-    <!-- <div class="introContainer" id="intros">
-        <div id="blockOne" class="intro">
-            <div class="main">
-                <h1>Bhavya Shah</h1>
-                <p>Software Engineer in training with a burning desire to be successful
-                    <p>
-            </div>
-            <div class="miniMenu">
-                <h1>Bhavya Shah</h1>
-                <div class="minuMenuList">
-                  <ul>
-                      <li><a class="scroll" href="#works">Works</a></li>
-                      <li><a class="scroll" href="#about">About</a></li>
-                      <li><a class="scroll" href="#contact">Contact</a></li>
-                      <li><a  href="Bhavya Resume.pdf" target="_blank">Resume</a></li>
-                  </ul>
-                </div>
-            </div>
-
+    <div>
+        <div class="name">
+          <h1>Bhavya Shah</h1>
+          <p>Software Engineering  &middot; University of Waterloo</p>
+          <hr/>
         </div>
-        <img class="intro" id="intro2"src="img/setup4.jpg" />
-        <img class="intro" id="intro3"src="img/setup5.png" />
-        <div class="intro" id="intro4">
-            <h1 class="changingText">Practical</h1>
-        </div>
-    </div> -->
-
-
-    <div class="navBarContainer">
-        <h2 class="logo">Bhavya Shah</h2>
-        <nav>
-            <ul>
-                <li><a class="scroll active" href="#about">About Me</a></li>
-                <li class="current"><a class="scroll" href="#works">Projects</a></li>
-                <li><a class="scroll" href="#contact">Contact</a></li>
-                <li><a href="Bhavya Resume.pdf" target="_blank">Resume</a></li>
-            </ul>
-        </nav>
-    </div>
-
-
-    <section id="about" class="menu-item">
-      <h2></h2>
-      <div class="imgContainer">
-        <img class="mypic"src="img/me2.png" />
-      </div>
-      <div class="self-desc">
-        Hey Everyone! Welcome to my website!
-        I'm a third year software engineering student at the University of Waterloo who is very passionate about programming, music, and exercising. <br/>
-        For my last work term, I was working at <a class="resume-link" href="https://www.stackadapt.com" target="_blank">StackAdapt</a> where I worked with Ruby, React, and Go 
-        to optimize the campaign creation process for users. <br/> 
-        My passion for programming and algorithms ignited when I was in highschool. After taking my first CS course, I quickly realized that when I was programming, I was absent-minded to the world outside my computer and music. "I could do this for eternity" is what I remember thinking.
-        From that point to today, my passion has only increased, and I love what I do everyday. <br> 
-        I'm actively looking for challenging and unique internship opportunities. View my <a class="resume-link" target="_blank" href="Bhavya Resume.pdf">resume</a>.
-      </div>
-  </section>
-
-    <section id="works" class="effects clearfix menu-item">
-        <h2>Projects</h2>
-        <div class="work-grid">
-          <div class="work-row">
-            <div class="work-col">
-              <img class="work-img"src="img/projects/unbiasify.png"/>
-              <div class="work-description">
-                <div class="desc-title">Unbiasify</div>
-                <div class="description-body">
-                    Open source chrome extension that allows you to source candidates from LinkedIn, Angelist and Twitter without seeing their names or faces. Aimed to eliminate unconscious bias.
-                    Currently working on expanding to more sites. 
-                  </thead>
-                </div>
-                <div class="work-buttons">
-                <a class="work-button" target="_blank" href="https://chrome.google.com/webstore/detail/unbiasify/affijhegklbkdinpepgphhlgphnhbenk">Link</a>
-              </div>
-            </div>
+        <div class="nav-container">
+          <div><a class="nav-item" target="_blank" href="Bhavya Resume.pdf"><i class="fa fa-file-text-o"></i></a>
+              <p>Resume</p>
           </div>
-            <div class="work-col">
-              <img class="work-img"src="img/projects/senties.png"/>
-              <div class="work-description">
-                <div class="desc-title">Cultural Music Sharing Platform</div>
-                <div class="description-body">
-                  Web platform for sharing and inspiring people through hindi music. Users can upload their songs to share with a wider audience.
-                </div>
-                <div class="work-buttons">
-                  <a class="work-button" target="_blank" href="http://www.senties.ca">Link</a>
-                </div>
-              </div>
-            </div>
-            <div class="work-col">
-              <img class="work-img"src="img/projects/scala.png"/>
-              <div class="work-description">
-                <div class="desc-title">Scala Compiler</div>
-                <div class="description-body">
-                  Parses a subset of scala to MIPS assembly instructions. Other parts of the compiler include a simple semispace garbage collection, 
-                  Cocke–Younger–Kasami (CYK) parser , typer which was responsible for performing type inference and validation, and finally, a maximal munch scanner for parsing the input into tokens. 
-                </div>
-                <!-- <div class="work-buttons">
-                  <a class="work-button" href="https://github.com/ethanchewy/WatchAndLearn">Github</a>
-                  <a class="work-button" href="https://devpost.com/software/watch-learn">Devpost</a>
-                </div> -->
-              </div>
-            </div>
-            <div class="work-col">
-              <img class="work-img"src="img/projects/qr/2.jpg"/>
-              <div class="work-description">
-                <div class="desc-title">InstaHome (UofT Hacks - 2017)</div>
-                <div class="description-body">
-                  Mobile App for home buyers and sellers to view property details (including a virtual tour) within the scan of a QR code. Inspired by the
-                  booming real estate market :)
-                </div>
-                <div class="work-buttons">
-                <a class="work-button" target="_blank" href="https://uofthacks-iv.hackerearth.com/sprints/uofthacks-iv/dashboard/InstaHome/submission/">Hacker Earth</a>
-              </div>
-              </div>
-            </div>
-            <div class="work-col">
-              <img class="work-img"src="img/projects/war sim/war-sim1.png"/>
-              <div class="work-description">
-                <div class="desc-title">War Simulator</div>
-                <div class="description-body">
-                  A 2D Simulation that mimics the end of the human race. Peasants and
-                  soldiers of each side battle for resources until one side reaches its demise.
-                </div>
-                <div class="work-buttons">
-                <a class="work-button" target="_blank" href="https://github.com/bhavyata9/Village-Simulation">Github</a>
-              </div>
-              </div>
-            </div>
-            <div class="work-col">
-              <img class="work-img"src="img/projects/imgman/img1.png"/>
-              <div class="work-description">
-                <div class="desc-title">Image Manipulation</div>
-                <div class="description-body">
-                  A primitive photoshop application which allows
-                users for simple operations (flip,rotate,mirror, etc.) on images with the ability
-                to save them for future use.
-                </div>
-                <div class="work-buttons">
-                <a class="work-button" target="_blank" href="https://github.com/bhavyata9/Image-Manipulation">Github</a>
-              </div>
-              </div>
-            </div>
+          <div><a class="nav-item" href="about.html"><i class="fa fa-user"></i></a>
+            <p>About</p>
+          </div>
+          <div><a class="nav-item" target="_blank" href="https://www.github.com/bhavyata9"><i class="fa fa-github"></i></a>
+            <p>GitHub</p>
+          </div>
+          <div><a class="nav-item" href="mailto:bhavyatasha@gmail.com"><i class="fa fa-envelope"></i></a>
+            <p>Contact</p>
+          </div>
         </div>
-    </section>
- 
-    <br/>  <br/>  <br/>  <br/>  <br/>  <br/>
-    <section id="contact" class="menu-item">
-      <h2 >Contact Me</h2>
-      <p>I am always looking for challenging and interesting projects to work on so feel free to contact me!</p>
-      <a class="social" href="mailto:bhavyatasha@gmail.com"><i class='fa fa-envelope-square fa-3x'></i></a>
-      <a class="social" target="_blank"href="http://www.github.com/bhavyata9"><i class='fa fa-github fa-3x'></i></a>
-      <a class="social" href="https://ca.linkedin.com/in/bhavyatashah" target="_blank"><i class='fa fa-linkedin fa-3x'></i></a>
-
-    </section>
-
-
+    </div>
+   
 </body>
 
 </html>
