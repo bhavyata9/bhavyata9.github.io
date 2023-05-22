@@ -3,6 +3,8 @@
     padding: 0;
     overflow: auto;
     font-family: 'QuickSand';
+    text-align: center;
+    vertical-align: middle;
 }
 
 html {
